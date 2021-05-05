@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: vaultSchedule
+  codec:
+    json:
+      additionalTypes:
+        - text/javascript
+
+com:
+  addcel:
+    transaction-gateway:
+      url: https://ej89p39lcg.execute-api.us-east-1.amazonaws.com
+      api-key: nmUeTZPqRsay5EuVBz6rjaaWf33w9SYMaX5lpbAh
